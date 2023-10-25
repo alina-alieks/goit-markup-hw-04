@@ -79,7 +79,9 @@ header {
 .nav-link:focus {
     color: #404bbf;
 }
-
+.studio-link {
+    color: #404bbf;
+}
 .nav-link::after {
     display: block;
     content: '';
