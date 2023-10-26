@@ -82,7 +82,7 @@ header {
 .studio-link {
     color: #404bbf;
 }
-.nav-link::after {
+.studio-link::after {
     display: block;
     content: '';
     width: 100%;
@@ -91,18 +91,8 @@ header {
     left: 0;
     bottom: -1px;
     background-color: #404bbf;
-    border-radius: 2px;
-    transform: translateY(100%);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 2px;   
 }
-.nav-link:hover::after,
-.nav-link:focus::after,
-.nav-link:active::after {
-    background-color: #404BBF;
-    transform: translateY(0);
-}
-
 .address-contact {
     font-style: normal;
     margin: 24px 0;
