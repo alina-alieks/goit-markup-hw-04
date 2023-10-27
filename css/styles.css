@@ -366,7 +366,7 @@ padding: 100px 0;
 }
 .footer-cntainer {
     display: flex;
-    align-items: baseline
+    align-items: baseline;
 }
 .footer-logo-text {
     margin-right: 120px;
